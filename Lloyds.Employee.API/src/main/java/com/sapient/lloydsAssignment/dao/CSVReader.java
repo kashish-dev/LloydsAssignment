@@ -21,6 +21,7 @@ public class CSVReader implements Reader {
 	
 	private  static Logger logger = LoggerFactory.getLogger(CSVReader.class);
 
+	//This method provides list of employees read from CSV file.
 	@Override
 	public List<Employee> getEmployees() {
 		List<Employee> employees = new ArrayList<Employee>();
@@ -39,6 +40,7 @@ public class CSVReader implements Reader {
 		return null;
 	}
 	
+	//This method reads data from CSV file.
 	private static MappingIterator<Employee> readCsv(String fileName) throws IOException {
         CsvSchema bootstrap = CsvSchema.builder()
                 .addColumn("employeeId", CsvSchema.ColumnType.NUMBER)

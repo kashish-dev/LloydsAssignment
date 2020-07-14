@@ -15,17 +15,6 @@ import lombok.NoArgsConstructor;
 @Entity
 public class Employee {
 	
-//	public Employee(String[] args) throws Exception {
-//		this.employeeId = Integer.valueOf(args[0]);
-//		this.employeeName = args[1];
-//		this.title = args[2];
-//		this.businessUnit = args[3];
-//		this.place = args[4];
-//		this.supervisorId = Integer.valueOf(args[5]);
-//		this.competencies = Arrays.asList(args[6].split(" "));
-//		this.salary = Double.valueOf(args[7]);
-//	}
-	
 	public Employee() {
 		
 	}
