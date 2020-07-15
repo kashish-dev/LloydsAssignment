@@ -6,6 +6,10 @@ import org.springframework.data.repository.CrudRepository;
 
 import com.sapient.lloydsAssignment.model.Employee;
 
+/**
+ * @author kasjain
+ * It is a Spring data interface for generic CRUD operations on a repository of a specific type.
+ */
 public interface IEmployeeRepository extends CrudRepository<Employee, Integer> {
 	
 	public List<Employee> findAllByPlace(String place);

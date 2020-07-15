@@ -22,6 +22,10 @@ import com.sapient.lloydsAssignment.model.Employee;
 import com.sapient.lloydsAssignment.repository.IEmployeeRepository;
 import com.sapient.lloydsAssignment.service.EmployeeServiceImpl;
 
+/**
+ * @author kasjain
+ * This is the controller class which controls the flow of the data.
+ */
 @RestController
 @RequestMapping("/employee")
 public class EmployeeController {

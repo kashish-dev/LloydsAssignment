@@ -12,14 +12,23 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * @author kasjain
+ * This is a model class which represents data object (Employee).
+ */
 @Entity
 public class Employee {
 	
+	/**
+	 * Constructor of the class.
+	 */
 	public Employee() {
 		
 	}
 	
-	
+	/**
+	 * Constructor of the class using fields.
+	 */
 	public Employee(int employeeId, String employeeName, String title, String businessUnit, String place,
 			int supervisorId, List<String> competencies, double salary) {
 		this.employeeId = employeeId;

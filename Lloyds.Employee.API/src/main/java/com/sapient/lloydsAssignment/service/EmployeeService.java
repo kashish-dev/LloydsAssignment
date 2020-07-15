@@ -4,6 +4,10 @@ import java.util.List;
 
 import com.sapient.lloydsAssignment.model.Employee;
 
+/**
+ * @author kasjain
+ * This is an interface used to specify a behaviour that EmployeeServiceImpl class must implement.
+ */
 public interface EmployeeService {
 	
 	public List<Employee> getEmployees();

@@ -16,6 +16,10 @@ import com.fasterxml.jackson.dataformat.csv.CsvMapper;
 import com.fasterxml.jackson.dataformat.csv.CsvSchema;
 import com.sapient.lloydsAssignment.model.Employee;
 
+/**
+ * @author kasjain
+ * This class is responsible for reading csv file and returning the List of all employees.
+ */
 @Service
 public class CSVReader implements Reader {
 	

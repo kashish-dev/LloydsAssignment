@@ -14,6 +14,10 @@ import com.sapient.lloydsAssignment.dao.Reader;
 import com.sapient.lloydsAssignment.model.Employee;
 import com.sapient.lloydsAssignment.repository.IEmployeeRepository;
 
+/**
+ * @author kasjain
+ * This class is responsible for handling all business logic needed for the project.
+ */
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
 
@@ -27,6 +31,9 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@Autowired
 	public IEmployeeRepository repository;
 	
+	/**
+	 * Constructor of the class.
+	 */
 	public EmployeeServiceImpl() {
 		
 	}
